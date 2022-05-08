@@ -1,6 +1,8 @@
 .container
   margin: 75px 50px
   max-width: 1290px
+  @media screen and (min-width: 1390px)
+    margin: 75px auto
 .head-wrapper
   align-items: flex-start
   display: flex
@@ -46,6 +48,8 @@
   display: flex
   flex-wrap: wrap
   justify-content: space-between
+  @media screen and (max-width: 1300px)
+    justify-content: center
   @media screen and (max-width: 920px)
     align-items: center
     justify-content: center
